@@ -1,0 +1,32 @@
+div#message-feed{
+  height: 300px;
+  width: 80%;
+  min-width: 500px;
+  border: #eee solid 2px;
+  padding: 10px 20px;
+  overflow: scroll;
+}
+
+/** ---- Message Feed ----- **/
+div.message{
+  padding: 3px 0px;
+}
+  div.message-time{
+    color: grey;
+    display: inline-block;
+  }
+  div.message-content{
+    padding-left: 7px;
+    display: inline-block;
+  }
+  span.username{
+    font-weight: bold;
+    color: purple;
+    padding-right: 5px; 
+  }
+input#compose-message{
+  width: 83.3%;
+  display:block;
+}
+
+
